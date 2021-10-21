@@ -1,0 +1,93 @@
+h1{
+    text-align: center;
+    font-family: 'Caveat', cursive;
+    font-size: 90px;
+    font-weight: bold;
+    color: rgb(243, 18, 18);
+}
+
+.input{
+    width: 15vw;
+    height: 30px;
+    position: absolute;
+    left: 35vw;
+    top: 180px;
+    font-size: 22px;
+}
+
+.button{
+    width: 150px;
+    height: 38px;
+    position: absolute;
+    left: 51vw;
+    top: 180px;
+    background-color: #fc3613;
+    font-weight: bold;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 23px;
+    color: rgb(204, 218, 21);
+  
+}
+
+.searchtag{
+    color: rgb(255, 255, 255);
+    list-style: square;
+    text-transform: uppercase;
+    font-size: 15px;
+    font-family: 'Pacifico', cursive;
+    font-weight: bold;
+}
+
+body{
+    background-image: linear-gradient(
+        to right top, 
+        #0a67f3,
+        #d046ca, 
+        #ff3f87, 
+        #ff7445, 
+        #ebad12
+    );
+}
+
+img{
+  width: 15vw;
+  height: 28vh;
+  border-radius: 5px;
+ object-fit: cover;
+ box-shadow: -6px 7px 4px 0px rgb(27, 27, 27);
+
+}
+li{
+  color: rgb(255, 255, 255);
+  list-style: circle;
+  text-transform: uppercase;
+  font-size: 15px;
+  font-family: 'Roboto Mono', monospace;  font-weight: bold;
+  color: #1305d6a3
+}
+.content{
+  display: inline-flex;
+ gap: 5px;
+}
+
+.display{
+  display: inline-flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.catdisplay{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 75px;
+}
+
+
+.showcat{
+     width: 15vw;
+    height: 28vh;
+    border-radius: 5px;
+     object-fit: cover;
+    box-shadow: -6px 7px 4px 0px rgb(27, 27, 27);
+     align-items: center;
+}
